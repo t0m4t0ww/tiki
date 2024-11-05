@@ -1,0 +1,48 @@
+.wrapper {
+    width: 200px;
+    background: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+    }
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 5px;
+    align-items: center;
+    h3 {
+        color: rgb(39, 39, 42);
+        font-weight: 500;
+        font-size: 12px;
+        padding-top: 10px;
+    }
+}
+
+.star-card {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    #icons-star {
+        color: rgb(253, 216, 53);
+    }
+    span {
+        font-size: 12px;
+        color: #808089;
+    }
+}
+
+#price-card {
+    font-weight: 700;
+    margin: 0px 0px 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        width: 175px;
+    }
+}

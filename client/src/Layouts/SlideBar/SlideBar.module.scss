@@ -1,0 +1,51 @@
+.wrapper {
+    width: 220px;
+    border-radius: 4px 0px 0px 4px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 16px 12px;
+    li {
+        list-style: none;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.column-sildebar {
+    display: flex;
+    flex-direction: column;
+    h4 {
+        margin: 0px;
+        line-height: 20px;
+        display: block;
+        color: rgb(56, 56, 61);
+        font-size: 14px;
+        padding: 12px 0px;
+        font-weight: 700;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    li {
+        font-size: 14px;
+        font-weight: 600;
+        color: rgb(56, 56, 61);
+        padding: 0px 0px 12px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+    }
+    #input {
+        margin-right: 7px;
+    }
+    span {
+        padding-left: 10px;
+    }
+}
+
+#icons-star {
+    color: rgb(253, 216, 53, 1);
+}
